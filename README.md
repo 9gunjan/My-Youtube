@@ -26,18 +26,18 @@ YouTube platform.
 
 ### 4. Search Suggestions
 
-- Utilized YouTube\u2019s Search Suggestions API to provide real-time search
+- Utilized YouTube Search Suggestions API to provide real-time search
   predictions while typing.
 - Debouncing applied here to handle rapid user input efficiently.
 
 ### 5. Nested Comments
 
-- Supported a hierarchical comment structure similar to YouTube\u2019s threaded
+- Supported a hierarchical comment structure similar to YouTube threaded
   comments.
 
 ### 6. Live Chat
 
-- Real-time chat functionality to simulate YouTube\u2019s live chat experience
+- Real-time chat functionality to simulate YouTube live chat experience
   during video playback.
 
 ### 7. Side Toggling Bar
@@ -46,7 +46,7 @@ YouTube platform.
 
 ### 8. Embedded Videos
 
-- Integrated YouTube\u2019s video embed code to display and play videos directly
+- Integrated YouTube video embed code to display and play videos directly
   within the app.
 
 ---
