@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+YouTube App Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A clone of the YouTube app built with React.js, implementing key features to
+enhance the user experience and optimize performance. This project showcases
+advanced React concepts and techniques to replicate the functionality of the
+YouTube platform.
 
-## Available Scripts
+Features
 
-In the project directory, you can run:
+1. High-Order Components (HOC)
 
-### `npm start`
+Reusability of components to manage common logic across different parts of the
+app.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. Debouncing
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Implemented debouncing for the search functionality to optimize API calls and
+improve performance.
 
-### `npm test`
+3. Caching
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Search queries and results are cached to reduce redundant API requests and
+enhance response times.
 
-### `npm run build`
+4. Search Suggestions
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Utilized YouTube’s Search Suggestions API to provide real-time search
+predictions while typing.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Debouncing applied here to handle rapid user input efficiently.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5. Nested Comments
 
-### `npm run eject`
+Supported a hierarchical comment structure similar to YouTube’s threaded
+comments.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+6. Live Chat
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Real-time chat functionality to simulate YouTube’s live chat experience during
+video playback.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+7. Side Toggling Bar
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+A responsive and interactive sidebar menu that can be toggled open or closed.
 
-## Learn More
+8. Embedded Videos
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Integrated YouTube’s video embed code to display and play videos directly within
+the app.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Technologies Used
 
-### Code Splitting
+React.js
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+YouTube API (for search suggestions and video data)
 
-### Analyzing the Bundle Size
+HTML5 and CSS3 for styling
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+JavaScript (ES6+) for logic and interactivity
 
-### Making a Progressive Web App
+Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+YouTube API Documentation
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Tutorials and online resources that supported the development of this project.
